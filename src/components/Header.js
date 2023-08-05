@@ -8,7 +8,7 @@ function Header() {
           <div className="lg:justify-around flex lg:flex-row lg:mb-96 flex-col">
             <div className=""> Home</div>
             <div>Tokenomics</div>
-            <div>White</div>
+            <div>Whitepaper</div>
             <div>FaQ</div>
             <div>
               <button className="border-2 w-24 rounded-lg ">Buy</button>
