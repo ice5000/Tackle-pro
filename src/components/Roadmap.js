@@ -23,7 +23,7 @@ function Roadmap() {
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
               <div className="flex flex-col">
-                <div className="flex flex-row space-x-2  lg:text-[14px] text-[10px]">
+                <div className="flex flex-row space-x-1  lg:text-[14px] text-[8px]">
                   <div>Use for online purchases or in-store shopping at </div>
                   <div className="font-bold lg:text-[13px] text-[8px]">
                     37 million merchant
