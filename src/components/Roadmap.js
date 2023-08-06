@@ -18,27 +18,27 @@ function Roadmap() {
             purchases seamlessly.
           </div>
           <div className="space-y-5 flex   flex-col ">
-            <div className="items-center flex flex-row space-x-5 ">
+            <div className="items-center flex flex-row space-x-3 ">
               <div className="ml-3">
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row space-x-1  lg:text-[14px] text-[8px]">
-                  <div>Use for online purchases or in-store shopping at </div>
-                  <div className="font-bold lg:text-[13px] text-[8px]">
+                  <div className="text-[9px]">Use for online purchases or in-store shopping at </div>
+                  <div className="font-bold lg:text-[13px] text-[9px]">
                     37 million merchant
                   </div>
                 </div>
-                <div className="text-[10px] lg:text-[14px]">
+                <div className="text-[9px] lg:text-[14px]">
                   locations worldwide.
                 </div>
               </div>
             </div>
-            <div className="items-center flex flex-row space-x-5  ">
+            <div className="items-center flex flex-row space-x-3  ">
               <div className="ml-3">
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
-              <div className="text-[10px] lg:flex lg:space-x-2 lg:flex-row lg:text-[14px]">
+              <div className="text-[9px] lg:flex lg:space-x-2 lg:flex-row lg:text-[14px]">
                 <div className="flex flex-row space-x-2">
                 <div>Keep Your Money Safe. Hold and</div>
                 <div className="font-bold">Exchange Crypto</div>
@@ -46,11 +46,11 @@ function Roadmap() {
                 <div>only when you need to.</div>
               </div>
             </div>
-            <div className="items-center flex flex-row  space-x-5 ">
+            <div className="items-center flex flex-row  space-x-3 ">
               <div className="ml-3">
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
-              <div className="lg:text-[14px] text-[10px]">
+              <div className="lg:text-[14px] text-[9px]">
                 All Funds are <span className="font-bold">SAFU</span>
               </div>
             </div>
