@@ -4,7 +4,7 @@ function Token() {
   return (
     <>
 
-      <div className="lg:h-[500px] h-[1400px] bg-[#0d111a]  flex justify-center items-center space-y-10 flex-col text-white text-sm">
+      <div className="lg:h-[500px] h-[1400px] bg-[#0d111a]  flex justify-center items-center space-y-5 flex-col text-white text-sm">
         <div className=" header-fonts font-bold text-5xl ">ROADMAP</div>
         <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-5 ">
           <div className="sha border-2 border-blue-500 mt-5 ">

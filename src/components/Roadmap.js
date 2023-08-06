@@ -9,7 +9,7 @@ function Roadmap() {
           <div className=" header-fonts lg:text-[30px] font-bold">
             TACKLE DEBIT CARD
           </div>
-          <div className="lg:text-[14px] text-[10px]">
+          <div className="lg:text-[14px] leading-5 text-[10px]">
             Spend crypto like cash. Spend Anywhere, Anytime.<br></br>
             $TACKLE is here to bridge the gap between Crypto and <br></br>
             Fiat Transactions. With low fees, TACKLE Debit Card <br></br>
@@ -18,14 +18,16 @@ function Roadmap() {
             purchases seamlessly.
           </div>
           <div className="space-y-5 flex   flex-col ">
-            <div className="items-center justify-center flex lg:flex-row space-x-8 ">
-              <div>
+            <div className="items-center flex flex-row space-x-5 ">
+              <div className="ml-3">
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
               <div className="flex flex-col">
-                <div className="flex flex-row  lg:text-[14px] text-[10px]">
+                <div className="flex flex-row space-x-2  lg:text-[14px] text-[10px]">
                   <div>Use for online purchases or in-store shopping at </div>
-                  <div className="font-bold text-[8px]">37 million merchant</div>
+                  <div className="font-bold lg:text-[13px] text-[8px]">
+                    37 million merchant
+                  </div>
                 </div>
                 <div className="text-[10px] lg:text-[14px]">
                   locations worldwide.
@@ -33,17 +35,19 @@ function Roadmap() {
               </div>
             </div>
             <div className="items-center flex flex-row space-x-5  ">
-              <div>
+              <div className="ml-3">
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
-              <div className="text-[10px] lg:text-[14px]">
-                Keep Your Money Safe. Hold and
-                <span className="font-bold">Exchange Crypto</span> only when you
-                need to.
+              <div className="text-[10px] lg:flex lg:space-x-2 lg:flex-row lg:text-[14px]">
+                <div className="flex flex-row space-x-2">
+                <div>Keep Your Money Safe. Hold and</div>
+                <div className="font-bold">Exchange Crypto</div>
+                </div>
+                <div>only when you need to.</div>
               </div>
             </div>
             <div className="items-center flex flex-row  space-x-5 ">
-              <div>
+              <div className="ml-3">
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
               <div className="lg:text-[14px] text-[10px]">
