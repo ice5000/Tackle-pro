@@ -12,7 +12,7 @@ function Main() {
             <br></br> opportunities due to socio-economic barriers.
           </div>
           <div className=" space-y-5 flex flex-col text-[10px]">
-            <div className="flex flex-row items-center -space-x-6 ">
+            <div className="flex flex-row items-center  ">
               <li className="ol-p "></li>
               <div className="lg:text-[14px]">
                 We aim to help these players transition from obscurity to
@@ -20,7 +20,7 @@ function Main() {
                 <br></br>professional contracts.
               </div>
             </div>
-            <div className="flex flex-row items-center -space-x-6 ">
+            <div className="flex flex-row items-center  ">
               <li className="ol-p"></li>
               <div className='lg:text-[14px]'>
                 We profit from agent fees and commissions on player deals and
@@ -28,7 +28,7 @@ function Main() {
               </div>
             </div>
             <div>
-              <div className="flex flex-row  items-center -space-x-6 ">
+              <div className="flex flex-row  items-center  ">
                 <li className="ol-p"></li>
                 <div className='lg:text-[14px]'>
                   We aspire to become the largest and most trusted decentralized
@@ -37,7 +37,7 @@ function Main() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-row items-center -space-x-6 ">
+            <div className="flex flex-row items-center  ">
               <li className="ol-p"></li>
               <div className='lg:text-[14px]'>
                 Through AI and personalized pitches, we intend to end the
