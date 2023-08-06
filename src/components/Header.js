@@ -1,11 +1,57 @@
 import React from "react";
 
 function Header() {
+  const nav = document.getElementsByClassName("sidenav");
+  function openNav() {
+    if (nav) {
+      nav[0].style.width = "250px";
+    }
+  }
+
+  function closeNav() {
+    if (nav) {
+      nav[0].style.width = "0px";
+    }
+  }
   return (
     <>
+      <div className="lg:hidden fixed w-full h-14 z-20 flex  justify-center items-center bg-[#131b2a]">
+        <div className="flex-row flex space-x-44">
+
+        <div>
+            <img className="w-12" src="/Tackle-Logo.png" alt="logo"/>
+          </div>
+          <div
+            className=" text-white"
+            style={{ fontSize: "30px", cursor: "pointer" }}
+            onClick={() => openNav()}
+          >
+            &#9776;
+          </div>
+          
+        </div>
+        <div className="hero-1"></div>
+
+        <div
+          id="sideNav"
+          className=" text-white items-center space-y-5  sidenav flex flex-col"
+        >
+          <button className="closebtn" onClick={() => closeNav()}>
+            &times;
+          </button>
+          <div className=""> Home</div>
+          <div>Tokenomics</div>
+          <div>Whitepaper</div>
+          <div>FaQ</div>
+          <div>
+            <button className="border-2 w-24 rounded-lg ">Buy</button>
+          </div>
+        </div>
+      </div>
+
       <div className=" flex-col flex">
-        <div className=" text-white items-center lg:top-96 hero-1  text-[28px] ">
-          <div className="lg:justify-around flex lg:flex-row lg:mb-96 flex-col">
+        <div className="  flex-row z-10 text-white items-center lg:top-96 hero-1  text-[28px] ">
+          <div className="lg:justify-around hidden  lg:flex lg:mb-96 lg:flex-row">
             <div className=""> Home</div>
             <div>Tokenomics</div>
             <div>Whitepaper</div>
@@ -52,12 +98,11 @@ function Header() {
             Tackle, Time to take over
           </div>
           <div className="lg:text-[14px] mx-8 text-[10px]">
-           <div className=" lg:-mr-[100px]">
-           Step aside, Pepe, Inu. It's time for $Tackle to take over. Are you
-           tired of memes with no real utility?
-            </div>            
+            <div className=" lg:-mr-[100px]">
+              Step aside, Pepe, Inu. It's time for $Tackle to take over. Are you
+              tired of memes with no real utility?
+            </div>
             <div className="">
-            
               Don't let your memes be dreams. It's time to discover new football
               greats.
             </div>

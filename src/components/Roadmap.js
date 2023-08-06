@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 function Roadmap() {
   return (
     <>
-      <div className="bg-[#0d111a] text-white flex-col lg:flex-row lg:h-[500px] h-[550px]  flex items-center justify-center   lg:space-x-10 space-y-14">
+      <div className="bg-[#131b2a] text-white flex-col lg:flex-row lg:h-[500px] h-[550px]  flex items-center justify-center   lg:space-x-10 space-y-14">
         <div className="space-y-5 justify-center items-center flex flex-col">
           <div className=" header-fonts lg:text-[30px] font-bold">
             TACKLE DEBIT CARD
@@ -24,7 +24,7 @@ function Roadmap() {
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row space-x-1  lg:text-[14px] text-[8px]">
-                  <div className="text-[9px]">Use for online purchases or in-store shopping at </div>
+                  <div className="text-[9px] lg:text-[14px]">Use for online purchases or in-store shopping at </div>
                   <div className="font-bold lg:text-[13px] text-[9px]">
                     37 million merchant
                   </div>

@@ -57,7 +57,44 @@ function Main() {
           />
         </div>
       </div>
-      <div className="bg-[#131b2a] text-white flex-col h-[300px] flex text-center space-y-2 items-center justify-center">
+
+
+      <div className="bg-[#131b2a] text-white lg:flex-row h-[750px] flex-col flex lg:space-x-64 lg:h-[500px] space-y-10 items-center justify-center ">
+        <div className=" flex flex-col lg:text-justify text-center space-y-4 items-center">
+          <div className="header-fonts  flex items-center text-[15px] font-bold lg:text-[30px]">
+            Fostering Community  Unity for Sporting <br></br> Revolution
+          </div>
+          <div className=' space-y-5 flex items-center flex-col '>
+
+          <div className="lg:text-[14px]  space-y-5  text-[10px]">
+           <div className=" ">
+           We will strive to create a symbiotic relationship between our<br></br> community, the token, newly discovered talents, and agents. We <br></br> will work together so that everyone can thrive and have fun<br></br> together.
+
+            </div>            
+            <div className="">
+            
+            Never underestimate the power of community. Together, we can<br></br> achieve great things. We need to create a supportive and <br></br> dedicated community of holders ready to contribute towards <br></br> achieving the common goal.
+
+            </div>
+          </div>
+          <div className=''>
+          <div className="lg:text-[14px]  mx-8 text-[10px]">
+            <div>Remember, if we stick together, everyone wins! So let’s join hands <br></br>and change the face of the sport.</div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div>
+          <img
+            src="/stevenbills.jpg"
+            alt="steve"
+            
+            className="rounded-lg w-[400px] h-[400px]"
+          />
+        </div>
+      </div>
+
+      <div className="bg-[#0d111a] text-white flex-col h-[300px] flex text-center space-y-2 items-center justify-center">
         <div className="text-green-700 text-[10px] font-bold">B&nbsp; E&nbsp; N&nbsp; E&nbsp; F&nbsp; I&nbsp; T&nbsp; S</div>
         <div className="header-fonts font-bold text-[40px]"> TACKLE Exclusive Club</div>
         <div className="text-[7px] lg:text-[8px] leading-4">The TACKLE official collection 10000 animated 3D NFT is Coming soon. By holding an NFT, you will get <br></br>
