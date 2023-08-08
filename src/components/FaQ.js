@@ -3,8 +3,8 @@ import React from "react";
 function FaQ() {
   return (
     <>
-    <div className="lg:h-[400px] h-[500px]  flex justify-center items-center flex-col bg-[#0d111a] text-white space-y-10">
-      <div className="flex lg:flex-row space-x-1 text-[30px] lg:text-[40px]">
+    <div className="lg:h-[400px] h-[550px]  flex justify-center items-center flex-col bg-[#0d111a] text-white space-y-10">
+      <div className="flex lg:flex-row space-x-1 text-[25px] lg:text-[40px]">
         <div>Frequently Asked </div>
         <div className="brightness-200 text-blue-950">Questions</div>
       </div>
@@ -15,7 +15,7 @@ function FaQ() {
             <summary>
               WHO IS THE TEAM BEHIND TACKLE,AND IS THE CONTRACT SECURE?
             </summary>
-            <div className="lg:text-[15px] text-[10px]">
+            <div className="lg:text-[15px] text-[14px]">
             Tackle is 100% community-driven, with the team/developers leading the project alongside the community. We will do a KYC (Know Your Customer) verification with a Pinksale-approved KYC firm, and the contract will be written and Audited by SAFU (Secure Asset Fund for Users) Devs from Pinksale. To view the KYC, you can click here. Our Extensive list of partners and marketing connections are ready to back us.
             </div>
           </details>

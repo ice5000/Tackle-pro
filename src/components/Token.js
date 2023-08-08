@@ -12,10 +12,10 @@ import {} from "react-icons/";
 function Token() {
   return (
     <>
-      <div className="lg:h-[500px] h-[1400px] bg-[#0d111a]  flex justify-center items-center space-y-5 flex-col text-white text-sm">
+      <div className="lg:h-[500px] h-[1450px] bg-[#0d111a]  flex justify-center items-center space-y-5 flex-col text-white text-sm">
         <div className=" header-fonts font-bold text-5xl ">ROADMAP</div>
         <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-5 ">
-          <div className="sha border-2 border-blue-500 mt-5 ">
+          <div className="sha  border-2 border-blue-500 mt-5 space-y-5 ">
             <div className="road-head ">Phase 1 </div>
             <ul>
               <li>Idea & Research.</li>
@@ -27,9 +27,9 @@ function Token() {
               <li>CoinMarketCap & CoinGecko Listing.</li>
             </ul>
           </div>
-          <div className="sha border-blue-500 border-2 space-y-6">
-            <div className="road-head">Phase 2 </div>
-            <ul>
+          <div className="sha  border-blue-500 border-2 space-y-6">
+            <div className="road-head ">Phase 2 </div>
+            <ul className="ml-6">
               <li>Community Building & Expansion.</li>
               <li>Social Media Trending Buzz.</li>
               <li>Dextool, Dexview, Avedex, Bsc Trending.</li>
@@ -42,7 +42,7 @@ function Token() {
           </div>
           <div className="sha border-blue-500 border-2 space-y-6">
             <div className="road-head ">Phase 3 </div>
-            <ul>
+            <ul className="mr-12">
               <li>10k + Holders.</li>
               <li>Tackle Debit Card.</li>
               <li>Scouting Platform.</li>
@@ -55,7 +55,7 @@ function Token() {
           </div>
           <div className="sha border-blue-500 border-2 space-y-6">
             <div className="road-head ">Phase 4 </div>
-            <ul>
+            <ul className="mr-9">
               <li>Soccer Academy.</li>
               <li>Philanthropic efforts.</li>
               <li>100k+ Holders.</li>
