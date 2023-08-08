@@ -98,12 +98,12 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="bg-[#131b2a] text-white lg:flex-row h-[700px] flex-col flex lg:space-x-24 lg:h-[500px] space-y-10 items-center justify-center ">
+      <div className="bg-[#131b2a] text-white lg:flex-row h-[800px] flex-col flex lg:space-x-24 lg:h-[500px] space-y-10 items-center justify-center ">
         <div className=" flex flex-col space-y-4 items-center">
-          <div className="header-fonts text-[15px]font-bold lg:text-[30px]">
+          <div className="header-fonts text-[29px] font-bold lg:text-[30px]">
             Tackle, Time to take over
           </div>
-          <div className="lg:text-[14px] mx-8 text-[10px]">
+          <div className="lg:text-[14px] mx-5 text-[16px]">
             <div className=" lg:-mr-[100px]">
               Step aside, Pepe, Inu. It's time for $Tackle to take over. Are you
               tired of memes with no real utility?
@@ -113,7 +113,7 @@ function Header() {
               greats.
             </div>
           </div>
-          <div className="lg:text-[14px] mx-8 text-[10px]">
+          <div className="lg:text-[14px] mx-5 text-[16px] ">
             <div>
               We are trying to revolutionize the way young talented players get
               discovered. We
@@ -131,9 +131,7 @@ function Header() {
           <img
             src="/soccerboy.jpg"
             alt="soc"
-            width={390}
-            height={400}
-            className="rounded-lg"
+            className="rounded-lg w-[350px] h-[350px]"
           />
         </div>
       </div>

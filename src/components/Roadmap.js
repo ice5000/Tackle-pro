@@ -4,12 +4,12 @@ import { FaCheckCircle } from "react-icons/fa";
 function Roadmap() {
   return (
     <>
-      <div className="bg-[#131b2a] text-white flex-col lg:flex-row lg:h-[500px] h-[550px]  flex items-center justify-center   lg:space-x-10 space-y-14">
+      <div className="bg-[#131b2a] text-white flex-col lg:flex-row lg:h-[500px] h-[800px]  flex items-center justify-center   lg:space-x-10 space-y-14">
         <div className="space-y-5 justify-center items-center flex flex-col">
-          <div className=" header-fonts lg:text-[30px] font-bold">
+          <div className=" header-fonts lg:text-[30px] text-[30px] font-bold">
             TACKLE DEBIT CARD
           </div>
-          <div className="lg:text-[14px] leading-5 text-[10px]">
+          <div className="lg:text-[14px] leading-5 lg:leading-5 mx-12 text-[16px]">
             Spend crypto like cash. Spend Anywhere, Anytime.<br></br>
             $TACKLE is here to bridge the gap between Crypto and <br></br>
             Fiat Transactions. With low fees, TACKLE Debit Card <br></br>
@@ -23,13 +23,13 @@ function Roadmap() {
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
               <div className="flex flex-col">
-                <div className="flex flex-row space-x-1  lg:text-[14px] text-[8px]">
-                  <div className="text-[9px] lg:text-[14px]">Use for online purchases or in-store shopping at </div>
-                  <div className="font-bold lg:text-[13px] text-[9px]">
+                <div className="flex lg:flex-row flex-col  lg:text-[14px]  ">
+                  <div className="text-[16px] lg:text-[14px]">Use for online purchases or in-store shopping at </div>
+                  <div className="font-bold lg:text-[13px] text-[16px]">
                     37 million merchant
                   </div>
                 </div>
-                <div className="text-[9px] lg:text-[14px]">
+                <div className="text-[16px] lg:text-[14px]">
                   locations worldwide.
                 </div>
               </div>
@@ -38,8 +38,8 @@ function Roadmap() {
               <div className="ml-3">
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
-              <div className="text-[9px] lg:flex lg:space-x-2 lg:flex-row lg:text-[14px]">
-                <div className="flex flex-row space-x-2">
+              <div className="text-[16px] lg:flex lg:space-x-2 lg:flex-row lg:text-[14px]">
+                <div className="flex flex-col lg:flex-row space-x-2">
                 <div>Keep Your Money Safe. Hold and</div>
                 <div className="font-bold">Exchange Crypto</div>
                 </div>
@@ -50,13 +50,13 @@ function Roadmap() {
               <div className="ml-3">
                 <FaCheckCircle className=" text-green-800 w-5" />
               </div>
-              <div className="lg:text-[14px] text-[9px]">
+              <div className="lg:text-[14px] text-[16px]">
                 All Funds are <span className="font-bold">SAFU</span>
               </div>
             </div>
           </div>
         </div>
-        <div className=" lg:h-[600px] lg:w-[400px] justify-center w-[290px] items-center flex">
+        <div className=" lg:h-[600px] lg:w-[400px] justify-center w-[260px] items-center flex">
           <img id="animated-div" src="/card.png" alt="" />
         </div>
       </div>

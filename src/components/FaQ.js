@@ -4,7 +4,7 @@ function FaQ() {
   return (
     <>
     <div className="lg:h-[400px] h-[500px]  flex justify-center items-center flex-col bg-[#0d111a] text-white space-y-10">
-      <div className="flex lg:flex-row space-x-1 lg:text-[40px]">
+      <div className="flex lg:flex-row space-x-1 text-[30px] lg:text-[40px]">
         <div>Frequently Asked </div>
         <div className="brightness-200 text-blue-950">Questions</div>
       </div>

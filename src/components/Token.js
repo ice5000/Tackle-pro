@@ -65,21 +65,21 @@ function Token() {
         </div>
       </div>
       <div>
-        <div className="text-white bg-[#131b2a] flex flex-col h-[150px] justify-center items-center space-y-10">
+        <div className="text-white bg-[#131b2a] flex flex-col h-[250px] justify-center items-center space-y-10">
           <div className="flex flex-row space-x-5 ">
            <div className="">
-           <IoIosMail  className=""/>
+           <IoIosMail size={50} className=""/>
            </div>
-            <FaTelegramPlane className="" />
-            <BsTwitter />
-            <FaDiscord />
+            <FaTelegramPlane size={50} className="" />
+            <BsTwitter size={50} />
+            <FaDiscord size={50} />
           </div>
 
           <div className="flex flex-row space-x-5">
-            <BsMedium />
-            <FaYoutube />
-            <FaInstagram />
-            <SiCoinmarketcap />
+            <BsMedium size={50} />
+            <FaYoutube size={50} />
+            <FaInstagram size={50} />
+            <SiCoinmarketcap size={50}/>
           </div>
         </div>
       </div>
