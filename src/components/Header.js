@@ -15,20 +15,21 @@ function Header() {
   }
   return (
     <>
-      <div className="lg:hidden fixed w-full h-14 z-20 flex  justify-center items-center bg-[#131b2a]">
-        <div className="flex-row flex space-x-44">
-
-        <div>
-            <img className="w-12" src="/Tackle-Logo.png" alt="logo"/>
-          </div>
+      <div className="lg:hidden fixed w-full h-20 z-20 flex  justify-center items-center bg-[#131b2a]">
+        <div className="flex-row flex space-x-20 justify-center items-center">
           <div
             className=" text-white"
-            style={{ fontSize: "30px", cursor: "pointer" }}
+            style={{ fontSize: "35px", cursor: "pointer" }}
             onClick={() => openNav()}
           >
             &#9776;
           </div>
-          
+          <div>
+            <img className="w-16" src="/Tackle-Logo.png" alt="logo" />
+          </div>
+          <div>
+            <button className="bg-blue-900 w-20 h-10 text-white rounded-md">BUY</button>
+          </div>
         </div>
         <div className="hero-1"></div>
 
@@ -62,13 +63,13 @@ function Header() {
           </div>
         </div>
 
-        <div className="bg-[#0d111a] h-[390px] flex justify-center items-center">
+        <div className="bg-[#0d111a] h-[1000px]  flex justify-center items-center">
           <div className="flex flex-col lg:mt-0 text-white space-y-3 justify-center items-center">
-            <div className="header-fonts mx-5 text-center  font-bold lg:text-[30px] text-[15px]">
+            <div className="header-fonts text-center font-bold lg:text-[30px] text-[35px]">
               Takoshi is finally the new coach of Tackle City, a struggling
               soccer <p></p>club in one of Europes's toughest leagues.
             </div>
-            <div className="text-[10px] justify-center text-justify items-center flex lg:text-[14px] flex-col mx-7">
+            <div className="text-[16px] justify-center items-center flex lg:text-[14px] flex-col mx-5">
               Takoshi sets out to find the best soccer talents worldwide and
               works with each player to coax out their hidden talents and
               utilize their true potential. Using his <br></br>
@@ -81,7 +82,7 @@ function Header() {
               player within the group. Only the best will be allowed to play
               with the team on the world stage.
             </div>
-            <div className="text-[10px] mx-7 lg:text-[14px]">
+            <div className="text-[16px] mx-5 lg:text-[14px]">
               A few decades earlier, the Tackle team was considered one of the
               strongest football teams, but today the club is close to total
               collapse due to a lack of funds and years <br></br>
