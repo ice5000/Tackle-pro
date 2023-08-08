@@ -28,7 +28,9 @@ function Header() {
             <img className="w-16" src="/Tackle-Logo.png" alt="logo" />
           </div>
           <div>
-            <button className="bg-blue-900 w-20 h-10 text-white rounded-md">BUY</button>
+            <button className="bg-blue-900 w-20 h-10 text-white rounded-md">
+              BUY
+            </button>
           </div>
         </div>
         <div className="hero-1"></div>
@@ -63,7 +65,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="bg-[#0d111a] h-[1000px]  flex justify-center items-center">
+        <div className="bg-[#0d111a] h-[1000px] lg:h-[500px]  flex justify-center items-center">
           <div className="flex flex-col lg:mt-0 text-white space-y-3 justify-center items-center">
             <div className="header-fonts text-center font-bold lg:text-[30px] text-[35px]">
               Takoshi is finally the new coach of Tackle City, a struggling
@@ -72,10 +74,13 @@ function Header() {
             <div className="text-[16px] justify-center items-center flex lg:text-[14px] flex-col mx-5">
               Takoshi sets out to find the best soccer talents worldwide and
               works with each player to coax out their hidden talents and
-              utilize their true potential. Using his <br></br>
-              intense training camp, unorthodox methods and his knack for
-              "practising for when the going gets tough," Takoshi is here to
-              prove his team's skill against a host of <br></br>
+              utilize their true potential. Using his
+              <p>
+                intense training camp, unorthodox methods and his knack for
+                "practising for when the going gets tough," Takoshi is here to
+                prove his team's skill against a host of
+              </p>
+              <br></br>
               continental rivals with more capital and larger budgets. The goal
               is to discover their true potential and discover the most
               battle-hardened, self-confident soccer <br></br>
