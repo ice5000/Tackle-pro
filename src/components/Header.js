@@ -65,7 +65,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="bg-[#0d111a] h-[1100px] lg:h-[500px]  flex justify-center items-center">
+        <div className="bg-[#0d111a] h-[1000px] lg:h-[500px]  flex justify-center items-center">
           <div className="flex flex-col lg:mt-0 text-white space-y-3 justify-center items-center">
             <div className="header-fonts text-center font-bold lg:text-[30px] text-[35px]">
               Takoshi is finally the new coach of Tackle City, a struggling
@@ -98,7 +98,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="bg-[#131b2a] text-white lg:flex-row h-[900px] flex-col flex lg:space-x-24 lg:h-[500px] space-y-10 items-center justify-center ">
+      <div className="bg-[#131b2a] text-white lg:flex-row h-[800px] flex-col flex lg:space-x-24 lg:h-[500px] space-y-10 items-center justify-center ">
         <div className=" flex flex-col space-y-4 items-center">
           <div className="header-fonts text-[29px] font-bold lg:text-[30px]">
             Tackle, Time to take over

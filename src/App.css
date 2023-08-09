@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Raleway:ital,wght@1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 .container h1{
   color: #fff;
@@ -44,7 +42,7 @@ details[open] div{
 }
 
 body {
-  font-family: 'Merriweather', serif;
+  
   height:100vh ;
   
   

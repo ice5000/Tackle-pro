@@ -8,7 +8,7 @@ import FaQ from './components/FaQ';
 
 function App() {
   return (
-    <div className=''>
+    <div className='font-merriweather'>
       <Header />
       <Main />
       <Roadmap />
