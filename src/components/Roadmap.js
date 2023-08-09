@@ -6,7 +6,7 @@ function Roadmap() {
     <>
       <div className="bg-[#131b2a] text-white flex-col lg:flex-row lg:h-[500px] h-[800px]  flex items-center justify-center   lg:space-x-10 space-y-14">
         <div className="space-y-5 justify-center items-center flex flex-col">
-          <div className=" header-fonts lg:text-[30px] text-[30px] font-bold">
+          <div className=" header-fonts lg:text-[30px] text-[30px] font-bold font-railway">
             TACKLE DEBIT CARD
           </div>
           <div className="lg:text-[14px] leading-5 lg:leading-5 mx-12 text-[16px]">

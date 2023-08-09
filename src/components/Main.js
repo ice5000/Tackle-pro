@@ -6,7 +6,7 @@ function Main() {
     <>
      <div className="bg-[#0d111a] text-white lg:flex-row lg:h-[500px] h-[1200px] flex lg:space-x-64 flex-col items-center justify-center space-y-10">
         <div className="flex flex-col justify-center items-center space-y-5 ">
-          <div className="header-fonts text-[30px] font-bold lg:text-[30px]">Tackle, Talent Scouting</div>
+          <div className="font-railway text-[30px] font-bold lg:text-[30px]">Tackle, Talent Scouting</div>
           <div className='text-[16px] mx-5 lg:text-[14px]'>
             <div>We aim to discover and support talented soccer players lacking</div>
             <p></p> opportunities due to socio-economic barriers.
@@ -60,7 +60,7 @@ function Main() {
       <div className="bg-[#131b2a] text-white lg:flex-row h-[1250px] flex-col flex lg:space-x-64 lg:h-[500px] space-y-10 items-center justify-center ">
         <div className=" flex flex-col lg:text-justify space-y-4 items-center">
           <div className="header-fonts  flex items-center text-[30px] font-bold lg:text-[30px]">
-            <div className='text-center mx-10'>
+            <div className='font-railway text-center mx-10'>
             Fostering Community  Unity for Sporting <br></br> Revolution
             </div>
           </div>
@@ -96,7 +96,7 @@ function Main() {
 
       <div className="bg-[#0d111a] text-white flex-col h-[400px] flex text-center space-y-2 items-center justify-center">
         <div className="text-green-700 text-[12px] font-bold">B&nbsp; E&nbsp; N&nbsp; E&nbsp; F&nbsp; I&nbsp; T&nbsp; S</div>
-        <div className="header-fonts font-bold text-[35px]"> TACKLE Exclusive Club</div>
+        <div className=" font-railway font-bold text-[38px]"> TACKLE Exclusive Club</div>
         <div className="text-[17px] lg:text-[8px] leading-6 lg:leading-4">The TACKLE official collection 10000 animated 3D NFT is Coming soon. By holding an NFT, you will get <br></br>
         exclusive access to future collections, real-world events & meetups, VIP Season Tickets for an unforgettable VIP <br></br>
          experience, and other VIP perks.

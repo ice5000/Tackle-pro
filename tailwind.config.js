@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        merriweather: ['erriweather', 'serif'],
-      }
+        merriweather: ['Merriweather', 'serif'],
+        lato: ['Lato', 'sans-serif',],
+        railway: ['Raleway', 'sans-serif'],
+      },
+     
     },
   },
   plugins: [],
