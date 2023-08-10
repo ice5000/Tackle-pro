@@ -67,10 +67,10 @@ function Header() {
 
         <div className="bg-[#0d111a] h-[1000px] lg:h-[500px]  flex justify-center items-center">
           <div className="flex flex-col lg:mt-0 text-white space-y-3 justify-center items-center">
-            <div className="font-railway text-center font-bold lg:text-[30px] text-[35px]">
+            <h1 className=" text-center font-bold lg:text-[30px] text-[35px]">
               Takoshi is finally the new coach of Tackle City, a struggling
               soccer <p></p>club in one of Europes's toughest leagues.
-            </div>
+            </h1>
             <div className="text-[16px] justify-center items-center flex lg:text-[14px] flex-col mx-5">
               Takoshi sets out to find the best soccer talents worldwide and
               works with each player to coax out their hidden talents and
