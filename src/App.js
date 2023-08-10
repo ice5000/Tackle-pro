@@ -8,7 +8,7 @@ import FaQ from './components/FaQ';
 
 function App() {
   return (
-    <div className='font-lato'>
+    <div className=''>
       <Header />
       <Main />
       <Roadmap />
