@@ -9,10 +9,10 @@ function FaQ() {
         <div className="brightness-200 text-blue-950">Questions</div>
       </div>
 
-      <div className="divide-y-[1px] lg:w-[1200px] divide-[#fff]">
+      <div className="divide-y-[1px]  lg:w-[1200px] divide-[#fff]">
         <div className="container ">
           <details>
-            <summary>
+            <summary className="font-bold">
               WHO IS THE TEAM BEHIND TACKLE,AND IS THE CONTRACT SECURE?
             </summary>
             <div className="lg:text-[15px] text-[14px]">
@@ -22,7 +22,7 @@ function FaQ() {
         </div>
         <div className="container">
           <details>
-            <summary>$TACKLE CONTRACT AUDITED?</summary>
+            <summary className="font-bold">$TACKLE CONTRACT AUDITED?</summary>
             <div className="lg:text-[15px] text-[10px]">
               Contract is <em>$SAFU</em>&nbsp;<em>$HOLD,</em> &nbsp;TACKLE have
               you covered.
@@ -31,7 +31,7 @@ function FaQ() {
         </div>
         <div className="container">
           <details>
-            <summary>DISCLAIMER OF LIABILITY.</summary>
+            <summary className="font-bold">DISCLAIMER OF LIABILITY.</summary>
             <div className="lg:text-[15px] text-[10px]" >
               Contract is <em>$SAFU</em>&nbsp;<em>$HOLD,</em> &nbsp;TACKLE have
               you covered.

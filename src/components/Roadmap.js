@@ -9,46 +9,49 @@ function Roadmap() {
           <div className=" header-fonts lg:text-[30px] text-[30px] font-bold font-railway">
             TACKLE DEBIT CARD
           </div>
-          <div className="lg:text-[14px] leading-5 lg:leading-5 mx-12 text-[16px]">
-            Spend crypto like cash. Spend Anywhere, Anytime.<br></br>
-            $TACKLE is here to bridge the gap between Crypto and <br></br>
-            Fiat Transactions. With low fees, TACKLE Debit Card <br></br>
+          <div className="lg:text-[14px] leading-5 lg:leading-5 max-w-[290px] text-[16px]">
+            Spend crypto like cash. Spend Anywhere, Anytime.
+            $TACKLE is here to bridge the gap between Crypto and 
+            Fiat Transactions. With low fees, TACKLE Debit Card 
             allows users to seamlessly spend cryptocurrencies for everyday
-            <br></br>
+            
             purchases seamlessly.
           </div>
           <div className="space-y-5 flex   flex-col ">
             <div className="items-center flex flex-row space-x-3 ">
-              <div className="ml-3">
-                <FaCheckCircle className=" text-green-800 w-5" />
+              <div className="">
+                <FaCheckCircle className=" text-green-800 " />
               </div>
               <div className="flex flex-col">
                 <div className="flex lg:flex-row flex-col  lg:text-[14px]  ">
-                  <div className="text-[16px] lg:text-[14px]">Use for online purchases or in-store shopping at </div>
+                  <div className="text-[16px] lg:text-[14px] max-w-[210px]">Use for online purchases or in-store shopping at </div>
+                  
                   <div className="font-bold lg:text-[13px] text-[16px]">
                     37 million merchant
                   </div>
-                </div>
-                <div className="text-[16px] lg:text-[14px]">
+                  <div className="text-[16px] lg:text-[14px]">
                   locations worldwide.
                 </div>
+                
+                
+                  </div>
               </div>
             </div>
             <div className="items-center flex flex-row space-x-3  ">
-              <div className="ml-3">
-                <FaCheckCircle className=" text-green-800 w-5" />
+              <div className="">
+                <FaCheckCircle className=" text-green-800 " />
               </div>
-              <div className="text-[16px] lg:flex lg:space-x-2 lg:flex-row lg:text-[14px]">
+              <div className="text-[16px] max-w-[150px] lg:flex lg:space-x-2 lg:flex-row lg:text-[14px]">
                 <div className="flex flex-col lg:flex-row space-x-2">
-                <div>Keep Your Money Safe. Hold and</div>
+                <div className="">Keep Your Money Safe. Hold and</div>
                 <div className="font-bold">Exchange Crypto</div>
                 </div>
                 <div>only when you need to.</div>
               </div>
             </div>
             <div className="items-center flex flex-row  space-x-3 ">
-              <div className="ml-3">
-                <FaCheckCircle className=" text-green-800 w-5" />
+              <div className="">
+                <FaCheckCircle className=" text-green-800" />
               </div>
               <div className="lg:text-[14px] text-[16px]">
                 All Funds are <span className="font-bold">SAFU</span>

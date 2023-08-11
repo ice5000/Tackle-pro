@@ -4,12 +4,13 @@ import React from 'react'
 function Main() {
   return (
     <>
-     <div className="bg-[#0d111a] text-white lg:flex-row lg:h-[500px] h-[1200px] flex lg:space-x-64 flex-col items-center justify-center space-y-10">
+     <div className="bg-[#0d111a] text-white lg:flex-row lg:h-[500px] h-[1100px] flex lg:space-x-64 flex-col items-center justify-center space-y-10">
         <div className="flex flex-col justify-center items-center space-y-5 ">
           <div className="font-railway text-[30px] font-bold lg:text-[30px]">Tackle, Talent Scouting</div>
           <div className='text-[16px] mx-5 lg:text-[14px]'>
-            <div>We aim to discover and support talented soccer players lacking</div>
-            <p></p> opportunities due to socio-economic barriers.
+            <div>We aim to discover and support talented soccer players lacking
+             opportunities due to socio-economic barriers.
+             </div>
           </div>
           <div className=" space-y-5 mx-8 flex flex-col text-[10px]">
             <div className="flex -space-x-5 flex-row items-center  ">
@@ -17,14 +18,14 @@ function Main() {
               <div className="lg:text-[14px] text-[16px]">
                 We aim to help these players transition from obscurity to
                 signing
-                <br></br>professional contracts.
+                professional contracts.
               </div>
             </div>
             <div className="flex flex-row -space-x-5 items-center  ">
               <li className="ol-p text-[45px]"></li>
               <div className='lg:text-[14px] text-[16px]'>
                 We profit from agent fees and commissions on player deals and
-                use a<br></br>portion to buy back and burn $TACKLE tokens.
+                use a portion to buy back and burn $TACKLE tokens.
               </div>
             </div>
             <div>
@@ -51,13 +52,13 @@ function Main() {
           <img
             src="/soccboy2.jpg"
             alt=""
-            className="rounded-lg w-[350px] h-[350px] "
+            className="rounded-lg w-[340px] h-[350px] "
           />
         </div>
       </div>
 
 
-      <div className="bg-[#131b2a] text-white lg:flex-row h-[1250px] flex-col flex lg:space-x-64 lg:h-[500px] space-y-10 items-center justify-center ">
+      <div className="bg-[#131b2a] text-white lg:flex-row h-[1100px] flex-col flex lg:space-x-64 lg:h-[500px] space-y-10 items-center justify-center ">
         <div className=" flex flex-col lg:text-justify space-y-4 items-center">
           <div className="header-fonts  flex items-center text-[30px] font-bold lg:text-[30px]">
             <div className='font-railway text-center mx-10'>
@@ -67,8 +68,8 @@ function Main() {
           <div className=' space-y-5 flex items-center flex-col '>
 
           <div className="lg:text-[14px] flex justify-center  flex-col lg:flex-row mx-[40px]  space-y-5  text-[17px]">
-           <div className=" ">
-           We will strive to create a symbiotic relationship between our<br></br> community, the token, newly discovered talents, and agents. We <br></br> will work together so that everyone can thrive and have fun<br></br> together.
+           <div className="   ">
+           We will strive to create a symbiotic relationship between our community, the token, newly discovered talents, and agents. We  will work together so that everyone can thrive and have fun together.
 
             </div>            
             <div className="">
@@ -79,7 +80,7 @@ function Main() {
           </div>
           
           <div className="lg:text-[14px]  mx-[40px] text-[17px]">
-            <div>Remember, if we stick together, everyone wins! So let’s join hands <br></br>and change the face of the sport.</div>
+            <div>Remember, if we stick together, everyone wins! So let’s join hands and change the face of the sport.</div>
           </div>
           
           </div>
@@ -89,7 +90,7 @@ function Main() {
             src="/stevenbills.jpg"
             alt="steve"
             
-            className="rounded-lg w-[350px] h-[350px]"
+            className="rounded-lg w-[340px] h-[350px]"
           />
         </div>
       </div>

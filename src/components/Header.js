@@ -13,9 +13,12 @@ function Header() {
       nav[0].style.width = "0px";
     }
   }
+
+
+
   return (
     <>
-      <div className="lg:hidden fixed w-full h-20 z-20 flex  justify-center items-center bg-[#131b2a]">
+      <div className="lg:hidden  fixed w-full h-20 z-20 flex  justify-center items-center bg-[#131b2a]">
         <div className="flex-row flex space-x-20 justify-center items-center">
           <div
             className=" text-white"
@@ -35,10 +38,8 @@ function Header() {
         </div>
         <div className="hero-1"></div>
 
-        <div
-          id="sideNav"
-          className=" text-white items-center space-y-5  sidenav flex flex-col"
-        >
+       
+          <div id="navbar"  className=" text-white items-center space-y-5  sidenav flex flex-col">
           <button className="closebtn" onClick={() => closeNav()}>
             &times;
           </button>
@@ -49,7 +50,8 @@ function Header() {
           <div>
             <button className="border-2 w-24 rounded-lg ">Buy</button>
           </div>
-        </div>
+          </div>
+        
       </div>
 
       <div className=" flex-col flex">
@@ -98,7 +100,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="bg-[#131b2a] text-white lg:flex-row h-[800px] flex-col flex lg:space-x-24 lg:h-[500px] space-y-10 items-center justify-center ">
+      <div className="bg-[#131b2a] text-white lg:flex-row h-[850px] flex-col flex lg:space-x-24 lg:h-[500px] space-y-10 items-center justify-center ">
         <div className=" flex flex-col space-y-4 items-center">
           <div className="header-fonts text-[29px] font-bold font-railway lg:text-[30px]">
             Tackle, Time to take over
@@ -113,7 +115,7 @@ function Header() {
               greats.
             </div>
           </div>
-          <div className="lg:text-[14px] mx-5 text-[16px] ">
+          <div className="lg:text-[14px] mx-5 text-[16px] max-w-[px] ">
             <div>
               We are trying to revolutionize the way young talented players get
               discovered. We
@@ -131,7 +133,7 @@ function Header() {
           <img
             src="/soccerboy.jpg"
             alt="soc"
-            className="rounded-lg w-[350px] h-[350px]"
+            className="rounded-lg w-[340px] h-[350px]"
           />
         </div>
       </div>
