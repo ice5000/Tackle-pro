@@ -9,7 +9,7 @@ function Roadmap() {
           <div className=" header-fonts lg:text-[30px] text-[30px] font-bold font-railway">
             TACKLE DEBIT CARD
           </div>
-          <div className="lg:text-[14px] leading-5 lg:leading-5 max-w-[330px] text-[16px]">
+          <div className="lg:text-[14px] lg:max-w-[600px] leading-5 lg:leading-5 max-w-[330px] text-[16px]">
             Spend crypto like cash. Spend Anywhere, Anytime.
             $TACKLE is here to bridge the gap between Crypto and 
             Fiat Transactions. With low fees, TACKLE Debit Card 
@@ -23,17 +23,17 @@ function Roadmap() {
                 <FaCheckCircle className=" text-green-800 " />
               </div>
               <div className="flex flex-col">
-                <div className="flex lg:flex-row flex-col  lg:text-[14px]  ">
-                  <div className="text-[16px] lg:text-[14px] max-w-[200px]">Use for online purchases or in-store shopping at </div>
+                <div className="flex lg:flex-col flex-col lg:max-w-[600px]  lg:text-[14px]  ">
+                  <div className="flex lg:flex-row flex-col lg:space-x-1 max-w-[1000px]">
+                  <div className="text-[16px] lg:text-[14px] lg:max-w-[400px] max-w-[200px]">Use for online purchases or in-store shopping at </div>
                   
                   <div className="font-bold lg:text-[13px] text-[16px]">
                     37 million merchant
                   </div>
+                  </div>
                   <div className="text-[16px] lg:text-[14px]">
                   locations worldwide.
                 </div>
-                
-                
                   </div>
               </div>
             </div>
@@ -41,7 +41,7 @@ function Roadmap() {
               <div className="">
                 <FaCheckCircle className=" text-green-800 " />
               </div>
-              <div className="text-[16px] max-w-[200px] lg:flex lg:space-x-2 lg:flex-row lg:text-[14px]">
+              <div className="text-[16px] max-w-[200px] lg:max-w-[400px] lg:text-[14px]">
                 <div className="flex flex-col lg:flex-row space-x-2">
                 <div className="">Keep Your Money Safe. Hold and</div>
                 <div className="font-bold">Exchange Crypto</div>

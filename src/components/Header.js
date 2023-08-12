@@ -1,4 +1,6 @@
 import React from "react";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 
 function Header() {
   const nav = document.getElementsByClassName("sidenav");
@@ -14,8 +16,6 @@ function Header() {
     }
   }
 
-
-
   return (
     <>
       <div className="lg:hidden  fixed w-full h-20 z-20 flex  justify-center items-center bg-[#131b2a]">
@@ -30,16 +30,21 @@ function Header() {
           <div>
             <img className="w-16" src="/Tackle-Logo.png" alt="logo" />
           </div>
-          <div>
-            <button className="bg-blue-900 w-20 h-10 text-white rounded-md">
-              BUY
-            </button>
+          <div className="text-white flex flex-row space-x-3">
+            <a href="https://t.me/isaac_Nz">
+              <FaTelegramPlane size={40} />
+            </a>
+            <a href="http://whatsapp.com">
+              <FaDiscord size={40} />
+            </a>
           </div>
         </div>
         <div className="hero-1"></div>
 
-       
-          <div id="navbar"  className=" text-white items-center space-y-5  sidenav flex flex-col">
+        <div
+          id="navbar"
+          className=" text-white items-center space-y-5  sidenav flex flex-col"
+        >
           <button className="closebtn" onClick={() => closeNav()}>
             &times;
           </button>
@@ -50,8 +55,7 @@ function Header() {
           <div>
             <button className="border-2 w-24 rounded-lg ">Buy</button>
           </div>
-          </div>
-        
+        </div>
       </div>
 
       <div className=" flex-col flex">
@@ -73,7 +77,7 @@ function Header() {
               Takoshi is finally the new coach of Tackle City, a struggling
               soccer <p></p>club in one of Europes's toughest leagues.
             </h1>
-            <div className="text-[16px] justify-center items-center flex lg:text-[14px] flex-col mx-5">
+            <div className="text-[16px] justify-center items-center flex lg:text-[14px] flex-col mx-5 lg:max-w-[1150px]">
               Takoshi sets out to find the best soccer talents worldwide and
               works with each player to coax out their hidden talents and
               utilize their true potential. Using his
@@ -100,22 +104,22 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="bg-[#131b2a] text-white lg:flex-row h-[850px] flex-col flex lg:space-x-24 lg:h-[500px] space-y-10 items-center justify-center ">
+      <div className="bg-[#131b2a] text-white lg:flex-row h-[900px] flex-col flex lg:space-x-24 lg:h-[500px] space-y-10 items-center justify-center ">
         <div className=" flex flex-col space-y-4 items-center">
           <div className="header-fonts text-[29px] font-bold font-railway lg:text-[30px]">
             Tackle, Time to take over
           </div>
-          <div className="lg:text-[14px] mx-5 text-[16px]">
-            <div className=" lg:-mr-[100px]">
+          <div className="lg:text-[14px]  text-[16px]">
+            <div className="lg:max-w-[800px] max-w-[320px] ">
               Step aside, Pepe, Inu. It's time for $Tackle to take over. Are you
               tired of memes with no real utility?
-            </div>
-            <div className="">
-              Don't let your memes be dreams. It's time to discover new football
-              greats.
+              <div>
+                Don't let your memes be dreams. It's time to discover new
+                football greats.
+              </div>
             </div>
           </div>
-          <div className="lg:text-[14px] mx-5 text-[16px] max-w-[px] ">
+          <div className="lg:text-[14px] space-y-2 mx-5 max-w-[320px] lg:mr-[125px] text-[16px] lg:max-w-[600px] ">
             <div>
               We are trying to revolutionize the way young talented players get
               discovered. We
@@ -124,8 +128,10 @@ function Header() {
               aim to find the next Ronaldo or Messi before they ever step onto a
               football field.
             </div>
+            <div>
             Let's hit the world's villages, inner cities, and soccer playing
             grounds.Remember, if
+            </div>
             <div>if we stick and work together, WAGMI.</div>
           </div>
         </div>

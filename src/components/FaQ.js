@@ -3,8 +3,8 @@ import React from "react";
 function FaQ() {
   return (
     <>
-    <div className="lg:h-[400px] h-[550px]  flex justify-center items-center flex-col bg-[#0d111a] text-white space-y-10">
-      <div className="flex lg:flex-row space-x-1 text-[25px] font-railway lg:text-[40px]">
+    <div className="lg:h-[400px] h-fit  flex justify-center items-center flex-col bg-[#0d111a] text-white space-y-10">
+      <div className="flex lg:flex-row mt-10 space-x-1 text-[25px] font-railway lg:text-[40px]">
         <div>Frequently Asked </div>
         <div className="brightness-200 text-blue-950">Questions</div>
       </div>
