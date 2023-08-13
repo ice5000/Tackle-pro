@@ -16,7 +16,8 @@ function Token() {
         <div className="font-bold text-5xl font-railway ">ROADMAP</div>
         <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-5 ">
           <div className="sha  border-2 border-blue-500 mt-5 space-y-5 ">
-            <div className="road-head ">Phase 1 </div>
+            <div className="lg:mb-7 lg:space-y-5">
+            <div className="road-head">Phase 1 </div>
             <ul>
               <li>Idea & Research.</li>
               <li>Website Launch.</li>
@@ -26,6 +27,7 @@ function Token() {
               <li>Onboarding Top Tier Influencers.</li>
               <li>CoinMarketCap & CoinGecko Listing.</li>
             </ul>
+            </div>
           </div>
           <div className="sha  border-blue-500 border-2 space-y-6">
             <div className="road-head ">Phase 2 </div>
@@ -41,8 +43,8 @@ function Token() {
             </ul>
           </div>
           <div className="sha border-blue-500 border-2 space-y-6">
-            <div className="road-head ">Phase 3 </div>
-            <ul className="mr-12">
+            <div className="road-head lg:mr-16 ">Phase 3 </div>
+            <ul className="mr-12 ">
               <li>10k + Holders.</li>
               <li>Tackle Debit Card.</li>
               <li>Scouting Platform.</li>
@@ -53,7 +55,8 @@ function Token() {
               <li>Second CEX (Tier 1) Listing.</li>
             </ul>
           </div>
-          <div className="sha border-blue-500 border-2 space-y-6">
+          <div className="sha border-blue-500 border-2 space-y-6 ">
+            <div className="lg:mb-24 space-y-5">
             <div className="road-head ">Phase 4 </div>
             <ul className="mr-9">
               <li>Soccer Academy.</li>
@@ -61,6 +64,7 @@ function Token() {
               <li>100k+ Holders.</li>
               <li>Global Dominance In Crypto.</li>
             </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -1,9 +1,10 @@
 import React from "react";
 
+
 function FaQ() {
   return (
     <>
-    <div className="lg:h-[400px] h-fit  flex justify-center items-center flex-col bg-[#0d111a] text-white space-y-10">
+    <div className=" h-fit lg:h-fit lg:pb-10  flex justify-center items-center flex-col bg-[#0d111a] text-white space-y-10">
       <div className="flex lg:flex-row mt-10 space-x-1 text-[25px] font-railway lg:text-[40px]">
         <div>Frequently Asked </div>
         <div className="brightness-200 text-blue-950">Questions</div>
@@ -32,23 +33,19 @@ function FaQ() {
         <div className="container">
           <details>
             <summary className="font-bold">DISCLAIMER OF LIABILITY.</summary>
-            <div className="lg:text-[15px] text-[10px]" >
+            <div className="lg:text-[15px] h-fit text-[10px]" >
               Contract is <em>$SAFU</em>&nbsp;<em>$HOLD,</em> &nbsp;TACKLE have
-              you covered.
+              you covered. 
             </div>
           </details>
         </div>
         
-        
-        <div className="container  ">
-          
-            
-            <div>
-            </div>
-          
-        </div>
       </div>
+     
     </div>
+    <div className="bg-[#131b2a] text-white flex justify-center items-center h-20 w-full  ">
+          <div>&copy; 2023 by TACKLE. All rights reserved!</div>
+        </div>
     </>
   );
 }
