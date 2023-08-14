@@ -2,7 +2,6 @@ import React from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 
-
 function Header() {
   const nav = document.getElementsByClassName("sidenav");
   function openNav() {
@@ -86,46 +85,45 @@ function Header() {
           </div>
         </div>
 
-        <div className="bg-[#0d111a] h-[1000px] lg:h-[500px]  flex justify-center items-center">
+        <div className="bg-[#0d111a] h-[1000px] lg:h-[550px]  flex justify-center items-center">
           <div className="flex flex-col lg:mt-0 text-white space-y-3 justify-center items-center">
             <h1 className=" text-center font-bold lg:text-[30px] text-[35px] lg:max-w-[600px]">
               Takoshi is finally the new coach of Tackle City, a struggling
               soccer club in one of Europes's toughest leagues.
             </h1>
-            <div className="text-[16px] justify-center  flex lg:text-[14px] flex-col mx-5 ">
-              <p className="lg:max-w-[580px]">
+            <div className="text-[16px] justify-center lg:space-y-3  flex lg:text-[14px] flex-col mx-5 ">
+              <p className="lg:max-w-[550px]">
                 Takoshi sets out to find the best soccer talents worldwide and
                 works with each player to coax out their hidden talents and
-                utilize their true potential. Using his
+                utilize their true potential.
               </p>
               <p className="lg:max-w-[550px]">
-                intense training camp, unorthodox methods and his knack for
-                "practising for when the going gets tough," Takoshi is here to
-                prove his team's skill against a host of continental
+                Using his intense training camp, unorthodox methods and his
+                knack for "practising for when the going gets tough," Takoshi is
+                here to prove his team's skill against a host of
+                continentalrivals with more capital and larger budgets.
               </p>
 
-              <p className="lg:max-w-[524px]">
-                 rivals with more capital and larger budgets. The
-                goal is to discover their true potential and discover the most
-                battle-hardened, self-confident soccer
+              <p className="lg:max-w-[450px]">
+                The goal is to discover their true potential and discover the
+                most battle-hardened, self-confident soccer player within the
+                group.
               </p>
               <p className="lg:max-w-[525px]">
-                player within the group. Only the best will be allowed to play
-                with the team on the world stage.
+                Only the best will be allowed to play with the team on the world
+                stage.
               </p>
-              <p className="lg:max-w-[622px]">
-              A few decades earlier, the Tackle team was considered one of the
-              strongest football teams, but today the club is close to total
-              collapse due to a lack of funds and years
-              of decay.
-            </p>
-            <p className="lg:max-w-[525px]">
-            It will be up to Takoshi and his youthful squad to
-              restore Tackle to glory by winning the world's most prestigious
-              Club Football championship.
-            </p>
+              <p className="lg:max-w-[600px]">
+                A few decades earlier, the Tackle team was considered one of the
+                strongest football teams, but today the club is close to total
+                collapse due to a lack of funds and years of decay.
+              </p>
+              <p className="lg:max-w-[525px]">
+                It will be up to Takoshi and his youthful squad to restore
+                Tackle to glory by winning the world's most prestigious Club
+                Football championship.
+              </p>
             </div>
-            
           </div>
         </div>
       </div>

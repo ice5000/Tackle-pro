@@ -12,11 +12,11 @@ import {} from "react-icons/";
 function Token() {
   return (
     <>
-      <div className="lg:h-[500px] h-[1450px] bg-[#0d111a]  flex justify-center items-center space-y-5 flex-col text-white text-sm">
+      <div className="lg:h-[500px] h-[1450px] bg-[#0d111a]  flex justify-center items-center space-y-5 flex-col text-white ">
         <div className="font-bold text-5xl font-railway ">ROADMAP</div>
         <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-5 ">
           <div className="sha  border-2 border-blue-500 mt-5 space-y-5 ">
-            <div className="lg:mb-7 lg:space-y-5">
+            <div className="lg:mb-7 space-y-5 lg:space-y-5">
             <div className="road-head">Phase 1 </div>
             <ul>
               <li>Idea & Research.</li>
@@ -30,7 +30,7 @@ function Token() {
             </div>
           </div>
           <div className="sha  border-blue-500 border-2 space-y-6">
-            <div className="road-head ">Phase 2 </div>
+            <div className="road-head mr-16">Phase 2 </div>
             <ul className="ml-6">
               <li>Community Building & Expansion.</li>
               <li>Social Media Trending Buzz.</li>
@@ -43,7 +43,7 @@ function Token() {
             </ul>
           </div>
           <div className="sha border-blue-500 border-2 space-y-6">
-            <div className="road-head lg:mr-16 ">Phase 3 </div>
+            <div className="road-head lg:mr-16 mr-16 ">Phase 3 </div>
             <ul className="mr-12 ">
               <li>10k + Holders.</li>
               <li>Tackle Debit Card.</li>
