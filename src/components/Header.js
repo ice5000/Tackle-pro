@@ -53,10 +53,10 @@ function Header() {
             <img className="w-16" src="/Tackle-Logo.png" alt="logo" />
           </div>
           <div className="text-white flex flex-row space-x-3">
-            <a href="https://t.me/isaac_Nz">
+            <a href="https://t.me/tackleme">
               <FaTelegramPlane size={40} />
             </a>
-            <a href="http://whatsapp.com">
+            <a href="https://discord.gg/m8Y8NrgcDd">
               <FaDiscord size={40} />
             </a>
           </div>
@@ -72,7 +72,7 @@ function Header() {
           </button>
           <div className="nav-classs"> Home</div>
           <div className="nav-classs">Tokenomics</div>
-          <div className="nav-classs">Whitepaper</div>
+          <div className="nav-classs"><a href="https://tackle.gitbook.io/tackle-docs/">Whitepaper</a></div>
           <div className="nav-classs">FaQ</div>
           <div>
             <button className="border-2 w-24 rounded-lg ">Buy</button>
@@ -90,16 +90,16 @@ function Header() {
               <div className="flex flex-row space-x-16">
                 <div> Home</div>
                 <div>Tokenomics</div>
-                <div>Whitepaper</div>
+                <div><a href="https://tackle.gitbook.io/tackle-docs/">Whitepaper</a></div>
                 <div>FaQ</div>
               </div>
             </div>
             <div>
               <div className="text-white flex flex-row space-x-10">
-                <a href="https://t.me/isaac_Nz">
+                <a href="https://t.me/tackleme">
                   <FaTelegramPlane size={40} />
                 </a>
-                <a href="http://whatsapp.com">
+                <a href="https://discord.gg/m8Y8NrgcDd">
                   <FaDiscord size={40} />
                 </a>
               </div>

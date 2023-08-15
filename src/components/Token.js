@@ -72,11 +72,11 @@ function Token() {
         <div className="text-white bg-[#131b2a] flex flex-col h-[250px] justify-center items-center space-y-10">
           <div className="flex flex-row space-x-5 ">
            <div className="">
-           <IoIosMail size={50} className=""/>
+           <a href="official@cometackle.com"><IoIosMail size={50} className=""/></a>
            </div>
-            <FaTelegramPlane size={50} className="" />
-            <BsTwitter size={50} />
-            <FaDiscord size={50} />
+            <a href="https://t.me/tackleme"><FaTelegramPlane size={50} className="" /></a> 
+            <a href="https://twitter.com/cometackle"><BsTwitter size={50} /></a>
+            <a href="https://discord.gg/m8Y8NrgcDd"><FaDiscord size={50} /></a>
           </div>
 
           <div className="flex flex-row space-x-5">
