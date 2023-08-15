@@ -64,8 +64,8 @@ function Roadmap() {
         </div>
       </div>
 
-      <div>
-        <img src="/tokenomics.jpg" alt="" width={1550} />
+      <div id="toks">
+        <img  src="/tokenomics.jpg" alt="" width={1550} />
       </div>
     </>
   );

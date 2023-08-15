@@ -36,8 +36,8 @@ function Header() {
 
   return (
     <>
-       <div className="lg:hidden  fixed w-full h-20 z-20 flex  justify-center items-center bg-[#131b2a]">
-        <div className="flex-row flex space-x-20 justify-center items-center">
+       <div  className="lg:hidden  fixed w-full h-20 z-20 flex  justify-center items-center bg-[#131b2a]">
+        <div  className="flex-row flex space-x-20 justify-center items-center">
           <div
             id="mobile-nav"
             className=" text-white nav-classs"
@@ -49,7 +49,7 @@ function Header() {
           >
             &#9776;
           </div>
-          <div>
+          <div >
             <img className="w-16" src="/Tackle-Logo.png" alt="logo" />
           </div>
           <div className="text-white flex flex-row space-x-3">
@@ -61,19 +61,20 @@ function Header() {
             </a>
           </div>
         </div>
+        
         <div className="hero-1"></div>
 
         <div
-          id="navbar"
+          id="navbar" 
           className=" text-white items-center space-y-5  sidenav flex flex-col"
         >
            <button className="closebtn" onClick={() => closeNav()}>
             &times;
           </button>
-          <div className="nav-classs"> Home</div>
-          <div className="nav-classs">Tokenomics</div>
+          <div className="nav-classs"><a href="#1">Home</a></div>
+          <div className="nav-classs"><a href="#toks">Tokenomics</a></div>
           <div className="nav-classs"><a href="https://tackle.gitbook.io/tackle-docs/">Whitepaper</a></div>
-          <div className="nav-classs">FaQ</div>
+          <div className="nav-classs"><a href="#faq">FaQ</a></div>
           <div>
             <button className="border-2 w-24 rounded-lg ">Buy</button>
           </div>
@@ -81,17 +82,17 @@ function Header() {
       </div>
 
       <div className=" flex-col flex">
-        <div className="  flex-row z-10 text-white items-center  hero-1 lg:h-screen text-[28px] ">
+        <div id="home" className="  flex-row z-10 text-white items-center  hero-1 lg:h-screen text-[28px] ">
           <div className=" hidden fixed bg-[#131b2a] justify-evenly space-x-[400px] z-20 h-20 lg:flex lg:flex-row  w-full pt-5">
             <div className=" flex flex-row space-x-16">
               <div>
                 <img className="w-14 " src="/Tackle-Logo.png" alt="logo" />
               </div>
               <div className="flex flex-row space-x-16">
-                <div> Home</div>
-                <div>Tokenomics</div>
+                <div><a href="#home">Home</a></div>
+                <div><a href="#toks">Tokenomics</a></div>
                 <div><a href="https://tackle.gitbook.io/tackle-docs/">Whitepaper</a></div>
-                <div>FaQ</div>
+                <div><a href="#faq">FaQ</a></div>
               </div>
             </div>
             <div>
@@ -109,7 +110,7 @@ function Header() {
 
         <div className="bg-[#0d111a] h-[1000px] lg:h-[550px]  flex justify-center items-center">
           <div className="flex flex-col lg:mt-0 text-white space-y-3 justify-center items-center">
-            <h1 className=" text-center font-bold lg:text-[30px] text-[35px] lg:max-w-[600px]">
+            <h1  className=" text-center font-bold lg:text-[30px] text-[35px] lg:max-w-[600px]">
               Takoshi is finally the new coach of Tackle City, a struggling
               soccer club in one of Europes's toughest leagues.
             </h1>
