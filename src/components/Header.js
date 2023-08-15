@@ -92,7 +92,7 @@ function Header() {
                 <div><a href="#home">Home</a></div>
                 <div><a href="#toks">Tokenomics</a></div>
                 <div><a href="https://tackle.gitbook.io/tackle-docs/">Whitepaper</a></div>
-                <div><a href="#faq">FaQ</a></div>
+                <div><a href="#faqs">FaQ</a></div>
               </div>
             </div>
             <div>
