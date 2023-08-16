@@ -74,7 +74,7 @@ function Header() {
           <div className="nav-classs"><a href="#1">Home</a></div>
           <div className="nav-classs"><a href="#toks">Tokenomics</a></div>
           <div className="nav-classs"><a href="https://tackle.gitbook.io/tackle-docs/">Whitepaper</a></div>
-          <div className="nav-classs"><a href="#faq">FaQ</a></div>
+          <div className="nav-classs"><a href="#faqs">FaQ</a></div>
           <div>
             <button className="border-2 w-24 rounded-lg ">Buy</button>
           </div>
