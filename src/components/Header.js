@@ -86,10 +86,10 @@ function Header() {
           <div className=" hidden fixed bg-[#131b2a] justify-evenly space-x-[400px] z-20 h-20 lg:flex lg:flex-row  w-full pt-5">
             <div className=" flex flex-row space-x-16">
               <div>
-                <img className="w-14 " src="/Tackle-Logo.png" alt="logo" />
+                <a href="https://tackle-pro.vercel.app/"><img className="w-14 " src="/Tackle-Logo.png" alt="logo" /></a>
               </div>
               <div className="flex flex-row space-x-16">
-                <div><a href="#home">Home</a></div>
+                <div><a href="https://tackle-pro.vercel.app/">Home</a></div>
                 <div><a href="#toks">Tokenomics</a></div>
                 <div><a href="https://tackle.gitbook.io/tackle-docs/">Whitepaper</a></div>
                 <div><a href="#faqs">FaQ</a></div>
