@@ -7,7 +7,7 @@ import { BsMedium } from "react-icons/bs";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { SiCoinmarketcap } from "react-icons/si";
-import {} from "react-icons/";
+
 
 function Token() {
   return (
@@ -95,49 +95,49 @@ function Token() {
           </div>
         </div>
         <div>
-          <div className="flex w-full flex-col lg:space-y-10  text-white lg:h-[800px] items-center bg-[#0d111a] justify-center">
-            <div className="flex flex-row lg:space-x-14 ">
-              <div className=" lg:space-x-7 hover:brightness-150 bg-[#37383D] flex justify-center items-center lg:w-[550px] lg:h-[300px] rounded-[35px]">
+          <div className="flex w-full flex-col lg:space-y-10 space-y-5 h-[1150px] text-white lg:h-[800px] items-center bg-[#0d111a] justify-center">
+            <div className="flex lg:flex-row flex-col space-y-5 lg:space-x-14 ">
+              <div className=" lg:space-x-7 space-x-3 hover:brightness-150 bg-[#37383D] flex justify-center items-center w-[320px] h-[200px] lg:w-[550px] lg:h-[300px] rounded-[35px]">
                 <img
-                  className="lg:w-[100px] lg:h-[100px]"
+                  className="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px]"
                   src="/dexview.png"
                   alt="dex"
                 />
-                <div className="lg:text-[40px] font-medium">DexView</div>
+                <div className="lg:text-[40px] text-[25px]  font-medium">DexView</div>
               </div>
-              <div className="lg:space-x-7 bg-[#37383D] hover:brightness-150 flex justify-center items-center lg:w-[550px] lg:h-[300px] rounded-[35px]">
+              <div className="lg:space-x-7 space-x-3 bg-[#37383D] hover:brightness-150 flex justify-center items-center w-[320px] h-[200px] lg:w-[550px] lg:h-[300px] rounded-[35px]">
                 <img
-                  className="lg:w-[100px] lg:h-[100px]"
+                  className="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px]"
                   src="/dextool.png"
                   alt="dex"
                 />
-                <div className="lg:text-[40px] font-medium">Dextools</div>
+                <div className="lg:text-[40px] text-[25px]  font-medium">Dextools</div>
               </div>
-              <div className="lg:space-x-7 bg-[#37383D] hover:brightness-150 flex justify-center items-center lg:w-[550px] lg:h-[300px] rounded-[35px]">
+              <div className="lg:space-x-7 space-x-3 bg-[#37383D] hover:brightness-150 flex justify-center items-center w-[320px] h-[200px] lg:w-[550px] lg:h-[300px] rounded-[35px]">
                 <img
-                  className="lg:w-[100px] lg:h-[100px]"
+                  className="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px]"
                   src="/pinksale.png"
                   alt="dex"
                 />
-                <div className="lg:text-[40px] font-medium">Pinksale</div>
+                <div className="lg:text-[40px] text-[25px]  font-medium">Pinksale</div>
               </div>
             </div>
-            <div className="flex lg:flex-row lg:space-x-14">
-              <div className="lg:space-x-7 bg-[#37383D] hover:brightness-150 flex justify-center items-center lg:w-[550px] lg:h-[300px] rounded-[35px]">
+            <div className="flex lg:flex-row flex-col lg:space-x-14 space-y-5">
+              <div className="lg:space-x-7 space-x-3 bg-[#37383D] hover:brightness-150 flex justify-center items-center w-[320px] h-[200px] lg:w-[550px] lg:h-[300px] rounded-[35px]">
                 <img
-                  className="lg:w-[100px] lg:h-[100px]"
+                  className="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px]"
                   src="/cg.png"
                   alt="dex"
                 />
-                <div className="lg:text-[40px] font-medium">CoinGecko</div>
+                <div className="lg:text-[40px] text-[25px]  font-medium">CoinGecko</div>
               </div>
-              <div className="lg:space-x-7 bg-[#37383D] hover:brightness-150 flex justify-center items-center lg:w-[550px] lg:h-[300px] rounded-[35px]">
+              <div className="lg:space-x-7 space-x-3 bg-[#37383D] hover:brightness-150 flex justify-center items-center w-[320px] h-[200px] lg:w-[550px] lg:h-[300px] rounded-[35px]">
                 <img
-                  className="lg:w-[100px] lg:h-[100px]"
+                  className="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px]"
                   src="/coinmarketcap-logo.png"
                   alt="dex"
                 />
-                <div className="lg:text-[40px] font-medium">CoinMarketCap</div>
+                <div className="lg:text-[40px] text-[25px] font-medium">CoinMarketCap</div>
               </div>
             </div>
           </div>
